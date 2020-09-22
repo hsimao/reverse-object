@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --poll app.ts",
-    "test": "jest --coverage --passWithNoTests",
+    "start": "ts-node-dev --poll ./src/app.ts",
+    "test": "jest --coverage --passWithNoTests --no-cache",
     "test:watch": "jest --watchAll --no-cache"
   },
   "jest": {
